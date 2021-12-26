@@ -27,11 +27,13 @@
 }
 
 .text-video {
+	overflow: hidden;
 	position: relative;
 	font-size: 80px;
 	text-align: center;
-	bottom: 500;
+	bottom: 350;
 	left: 0;
+	z-index: 100;
 	color: #ffffff;
 	width: 100%;
 	font-family: "IBM Plex Sans Arabic", sans-serif;
