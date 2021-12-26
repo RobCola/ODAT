@@ -1,0 +1,42 @@
+#navbar {
+	overflow: hidden;
+	background-color: transparent;
+	padding: 10px 10px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#navbar a {
+	float: left;
+	background: linear-gradient(#e41376, #01c8ee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 50px;
+	border-radius: 5px;
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+#video-bg {
+	width: 100%;
+}
+
+.text-video {
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	bottom: 500;
+	left: 0;
+	color: #ffffff;
+	width: 100%;
+	font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+#logo {
+	transition: 0.4s;
+}
