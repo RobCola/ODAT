@@ -15,11 +15,9 @@
 			href="node_modules/font-awesome/css/font-awesome.min.css"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap"
 			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;600&display=swap"
 		/>
-		
-		
 		<title>ODAT</title>
 
 
@@ -45,31 +43,16 @@
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="aboutus.html"
-								>About</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="aboutus.html"
+							<a class="nav-link" href="staff.html"
 								>Staff</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" herf="#"
-								>Events</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contactus.html"
+							<a class="nav-link" href="contact.html"
 								>Contact</a
 							>
 						</li>
 					</ul>
-					<span class="navbar-text ml-auto">
-						<a role="button" data-toggle="modal" data-target="#loginModal">
-							<i class="fa fa-sign-in"></i> Login
-						</a>
-					</span>
 				</div>
 			</div>
 		</nav>
@@ -83,32 +66,69 @@
 			<div class="container h-100">
 				<div class="d-flex h-100 text-center align-items-center">
 					<div class="w-100 text-white">
-						<h1 class="display-3">ONE DAY AT A TIME</h1>
-						<p class="lead mb-0">Empowering youth to lead positive lives</p>
+						<h1 id="videoTitle" class="display-3">ONE DAY AT A TIME</h1>
+						<p id="videoTitle2" class="lead mb-0">Empowering youth to lead positive lives</p>
 						<br>
-						<button type="button" class="btn btn-danger btn-lg">Learn More</button>
+						<div class="col">
+							<button role="button" class="btn btn-lg btn-danger" id="learnButton">Learn More</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	
-	<body>
-	<section class="my-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mx-auto text-center">
-					<h1>YESTERDAY |TODAY| TOMORROW</h1>
-					<br>
-				<p>Since its initial founding, ODAT has transformed to serve youth and young adults of all backgrounds and walks of life and challenges them to become the best version of themselves. The organization has successfully grown into a strong agency with a team of dedicated staff members, a solid volunteer base, and its own Advisory Committee.  As of now, the program has expanded from east Contra Costa County into San Joaquin County.
-					ODAT is dedicated to providing positive educational and personal growth opportunities. Our school-linked program participants consist of youth from elementary age to high school whom desire to develop leadership skills or want to become empowered to grow on a personal and academic level. Inclusively, ODAT graduates that go on to college can continue their involvement in ODAT as mentors to our younger ODAT participants.
-					ODAT youth build better relationships with peers, improve relationships at home and also perform better academically. Some of the participants that are part of the ODAT family find themselves facing difficulties in life and just want a safe place to have a voice and be heard, cared for and encouraged to find the strength to make better choices. ODAT also partners with many other community resources and organizations in order to provide wrap around services. We are proud to say that more than 20 years later, ODAT continues to grow and be centered on empowering children, youth and young adults!</p>
-				<p>“One Day At A Time (ODAT) is a doorway for opportunities.” -Johnny Rodriguez, Executive Director</p>
+
+			<div id="learnModal" class="modal fade" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Learn More</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+								<form>
+									<div class="form-row">
+										<div class="form-group col-12">
+											<label class="sr-only" for="submitEmail">Email address</label>
+											<input type="email" class="form-control" id="submitEmail" placeholder="Enter email">
+										</div>
+										<div class="form-group col-12">
+											<label for="customerName">Name</label>
+											<input type="text" class="form-control" id="customerName" placeholder="First and Last name" rows="1"></textarea>
+										</div>
+										<div class="form-group col-12">
+											<label for="textArea">What would you like to know</label>
+											<textarea class="form-control" id="textArea" rows="3"></textarea>
+										</div>
+										</div>
+									<div class="form-row">
+										<button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+										<button type="submit" class="btn btn-danger btn-sm ml-1">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		  </div>
-		</div>
-	  </section>
+	
+	<body>
+		<section class="my-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 mx-auto text-center">
+						<h1>YESTERDAY -TODAY- TOMORROW</h1>
+						<br>
+					<p>Since its initial founding, ODAT has transformed to serve youth and young adults of all backgrounds and walks of life and challenges them to become the best version of themselves. The organization has successfully grown into a strong agency with a team of dedicated staff members, a solid volunteer base, and its own Advisory Committee.  As of now, the program has expanded from east Contra Costa County into San Joaquin County.
+						ODAT is dedicated to providing positive educational and personal growth opportunities. Our school-linked program participants consist of youth from elementary age to high school whom desire to develop leadership skills or want to become empowered to grow on a personal and academic level. Inclusively, ODAT graduates that go on to college can continue their involvement in ODAT as mentors to our younger ODAT participants.
+						ODAT youth build better relationships with peers, improve relationships at home and also perform better academically. Some of the participants that are part of the ODAT family find themselves facing difficulties in life and just want a safe place to have a voice and be heard, cared for and encouraged to find the strength to make better choices. ODAT also partners with many other community resources and organizations in order to provide wrap around services. We are proud to say that more than 20 years later, ODAT continues to grow and be centered on empowering children, youth and young adults!</p>
+					<p>“One Day At A Time (ODAT) is a doorway for opportunities.” -Johnny Rodriguez, Executive Director</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
 
 
 		<div class="container mt-5">
@@ -117,17 +137,17 @@
 			  <img class="d-flex ml-2 img-thumbnail" src="img/img1.png" alt="IMG1">
 			</div>
 			<div class="col-md-7 text-md-left text-center">
-				<h2 class="mt-0">MISSION STATEMENT</h2>
-			  <p class="lead">Our goal is to provide youth with a supportive network of peers, opportunities for academic and personal growth and exposure to positive transformative experiences. By enhancing education and leadership skills, providing guidance and developing trusting relationships; we empower our youth with the confidence and life skills to make better choices and lead positive lives.</p>
+				<h2 class="mt-0"><strong>MISSION STATEMENT</strong></h2>
+			  <p >Our goal is to provide youth with a supportive network of peers, opportunities for academic and personal growth and exposure to positive transformative experiences. By enhancing education and leadership skills, providing guidance and developing trusting relationships; we empower our youth with the confidence and life skills to make better choices and lead positive lives.</p>
 			</div>
 		  </div>
 		</div>
 
-		<div class="container mt-5">
+		<div class="container mt-5 ">
 			<div class="row">
 			  <div class="col-md-7 text-md-right text-center">
-				<h2 class="mt-0">VISION</h2>
-				<p class="lead">One Day at a Time believes that adult mentoring, effective coping and adjusting methods, and responding to issues positively, will provide the framework for youth and young adults to successfully navigate through life. The organization works hard to empower underserved youth in order to prevent or deter them from negative or undesirable behaviors. We do this by building the inner core. Our vision is to help youth and young adults become the best version of themselves that they can be.</p>
+				<h2 class="mt-0"><strong>VISION</strong></h2>
+				<p>One Day at a Time believes that adult mentoring, effective coping and adjusting methods, and responding to issues positively, will provide the framework for youth and young adults to successfully navigate through life. The organization works hard to empower underserved youth in order to prevent or deter them from negative or undesirable behaviors. We do this by building the inner core. Our vision is to help youth and young adults become the best version of themselves that they can be.</p>
 			  </div>
 			  <div class="col-md-5 text-md-right text-center">
 				  <img class="d-flex ml-2 img-thumbnail" src="img/img2.png" alt="IMG1">
@@ -141,30 +161,23 @@
 				<img class="d-flex ml-2 img-thumbnail" src="img/img3.png" alt="IMG1">
 			  </div>
 			  <div class="col-md-7 text-md-left text-center">
-				  <h2 class="mt-0">CORE VALUES</h2>
-				<li>Provide a safe place to have a voice and be listened to</li>
-				<li>Provide positive growth opportunities for children, youth and young adults</li>
-				<li>Model positive lifestyle choices</li>
-				<li>Treat all with dignity and respect</li>
-			  </div>
+				  <h2 class="mt-0"><strong>CORE VALUES</strong></h2>
+					<p><strong>Respect</strong> - We treat everyone with kindness and dignity.
+					<p><strong>Trust</strong> - We honor and create places of safety, integrity, accountability, consistency and support to build trust.</p>
+					<p><strong>Understanding</strong> - We suspend judgment to acknowledge other points of view.</p>
+					<p><strong>Growth</strong> - We are committed to opening doors and providing opportunities for youth to be heard and to support personal development.</p>
+					<p><strong>Equity</strong> - We identify and apply resources according to community needs.</p>
+					<p><strong>Dedication/Perseverance</strong> - We endure and commit to overcoming community challenges that would stop us from fulfilling our Vision and Mission.</p>
+				</div>
 			</div>
-		  </div>
+		 </div>
 
-	  
-
-
-	
-
-		
-
-	
-		
 
 		<footer>
-			<script src="js/java.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
 		</footer>
 	</body>
 </html>
